@@ -8,5 +8,7 @@ def format_color(bgr : list) -> str:
     return 'blue ' + str(bgr[0]) + " green " + str(bgr[1]) + ' red ' + str(bgr[2])
 
 
-quadrants = Image("img/quadrants.jpg")
-quadrants.gen_mean_pic(1, 1)
+quadrants = Image("img/vani.jpg")
+quadrants.gen_mean_pic(50, 50)
+quadrants.save("pic.jpg")
+# quadrants.section_array[0].calc_average_color()
