@@ -7,6 +7,6 @@ def format_color(bgr : list) -> str:
     return 'blue ' + str(bgr[0]) + " green " + str(bgr[1]) + ' red ' + str(bgr[2])
 
 
-quadrants = Image("img/pua.png")
+quadrants = Image("img/dog.png")
 quadrants.gen_mean_pic(50, 50)
-quadrants.save("pic.jpg")
+quadrants.save("img/pixelated/pixel_dog.jpg")
